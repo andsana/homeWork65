@@ -20,7 +20,7 @@ const Toolbar: React.FC = () => {
             <NavLink to="/pages/Divisions" className="nav-link">Divisions</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/admin" className="nav-link">Admin</NavLink>
+            <NavLink to="/pages/admin" className="nav-link">Admin</NavLink>
           </li>
         </ul>
       </div>
@@ -29,3 +29,4 @@ const Toolbar: React.FC = () => {
 };
 
 export default Toolbar;
+
